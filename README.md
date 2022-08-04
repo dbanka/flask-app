@@ -15,9 +15,9 @@ pip install -r requirements.txt
 ## Running The App
 
 ```bash
-python main.py
+heroku login
+heroku create eflask-app
+git push heroku master
 ```
 
-## Viewing The App
 
-Go to `http://127.0.0.1:5000`
